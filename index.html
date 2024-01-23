@@ -89,7 +89,7 @@
         </div>
       </nav>
       <!-- Hero Section Starts Here  -->
-      <div class="banner my-16">
+      <div class="banner my-16 relative">
         <div class="carousel w-full h-3/4">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/banner-1.png" class="w-full" />
@@ -119,15 +119,17 @@
             </div>
           </div>
         </div>
+        <div class="absolute lg:right-8 bottom-8 p-7 w-1/2 bg-black text-[#FFFFFF99] rounded-2xl text-start  ">
+          <h1 class="text-2xl font-extrabold mb-2 text-white">Meet all the heroes from the field</h1>
+          <p class="font-medium text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
       </div>
     </header>
-
     <!-- Main Section Starts Here  -->
     <main class="px-32 py-10 font">
+      <!-- Radial progress Section  -->
       <section class="Professional-hockeys-club flex-col mb-5">
-        <div
-          class="professional-title border-dashed border-t-2 border-b-2 border-[#13131833] text-center py-9"
-        >
+        <div class="professional-title border-dashed border-t-2 border-b-2 border-[#13131833] text-center py-9">
           <h1 class="font-extrabold text-4xl mb-5">
             Professional Hockeys Club
           </h1>
@@ -136,50 +138,34 @@
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </div>
-        <div class="radial-progress grid sm:grid-cols-1 lg:grid-cols-4">
-          <div class="load-1 w-1/4">
-            <div
-              class="radial-progress bg-red"
-              style="--value: 87"
-              role="progressbar"
-            >
-              87%
+        <div class="progress-bar grid grid-cols-1 lg:grid-cols-4 gap-5"> 
+          <div class="no-1 text-center">
+            <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
+            <div>
+              <h3 class="text-xl font-semibold">Prayer Facility</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
-            <h3 class="font-semibold text-xl">Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
-          <div class="load-2 w-1/4">
-            <div
-              class="radial-progress bg-red"
-              style="--value: 95"
-              role="progressbar"
-            >
-              95%
+           <div class="no-2 text-center">
+            <div class="radial-progress text-green-400" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+            <div>
+              <h3 class="text-xl font-semibold">Experienced Coach</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
-            <h3 class="font-semibold text-xl">Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
-          <div class="load-3 w-1/4">
-            <div
-              class="radial-progress bg-red"
-              style="--value: 90"
-              role="progressbar"
-            >
-              90%
+           <div class="no-3 text-center">
+            <div class="radial-progress text-amber-300" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
+            <div>
+              <h3 class="text-xl font-semibold">Senior Player</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
-            <h3 class="font-semibold text-xl">Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
-          <div class="load-4 w-1/4">
-            <div
-              class="radial-progress bg-red"
-              style="--value: 80"
-              role="progressbar"
-            >
-              80%
+           <div class="no-4 text-center">
+            <div class="radial-progress text-primary" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
+            <div>
+              <h3 class="text-xl font-semibold">Training Ground</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
-            <h3 class="font-semibold text-xl">Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
         </div>
       </section>
@@ -542,9 +528,7 @@
       </section>
       <!-- Get In Touch Section  -->
       <section class="get-in-touch">
-        <div
-          class="get_in_touch-title border-dashed border-t-2 border-b-2 border-[#13131833] text-center py-9 mb-5"
-        >
+        <div class="get_in_touch-title border-dashed border-t-2 border-b-2 border-[#13131833] text-center py-9 mb-5">
           <h1 class="font-extrabold text-4xl mb-5">Get In Touch</h1>
           <p class="font-medium text-base">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
@@ -552,11 +536,9 @@
           </p>
         </div>
         <div
-          class="get_in_touch-details flex flex-col lg:flex-row gap-5 justify-between"
+          class="get_in_touch-details grid grid-cols-1 lg:grid-cols-6 gap-5 justify-between"
         >
-          <div
-            class="info border-solid border-2 border-[#1313181A] rounded-2xl p-12"
-          >
+          <div class="info col-span-2 border-solid border-2 border-[#1313181A] rounded-2xl p-12">
             <div class="box-1 bg-[#BCED6D1A] rounded-2xl p-8 mb-4">
               <img src="Images/Group 1171275317.png" alt="" />
               <p>
@@ -581,7 +563,7 @@
               </p>
             </div>
           </div>
-          <div class="details flex-col justify-between">
+          <div class="details col-span-4 justify-between">
             <div class="row-1 flex flex-col lg:flex-row gap-3">
               <div>
                 <h2>Your Name</h2>
@@ -621,7 +603,7 @@
             <div class="row-3">
               <h2>Message</h2>
               <textarea
-                class="textarea textarea-bordered w-full h-full"
+                class="textarea textarea-bordered textarea-lg w-full h-96"
                 placeholder="Write your message"
               ></textarea>
             </div>
